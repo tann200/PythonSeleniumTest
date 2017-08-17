@@ -1,0 +1,136 @@
+08/18/2017 12:12:08 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:12:11 AM - SeleniumDriver - INFO: Element not found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:12:11 AM - SeleniumDriver - INFO: ElementorderDetails!addItem_order!acceptOrder and locatorType:ID not found
+08/18/2017 12:12:59 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:13:00 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:13:00 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:13:00 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:13:00 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:13:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:13:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:15:01 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:15:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:15:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:15:01 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:15:02 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:15:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:15:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:16:01 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:16:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:16:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:16:01 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:16:01 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:16:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:16:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:17:32 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:17:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:22:50 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:22:50 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:22:50 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:22:50 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:22:51 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:22:51 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:22:51 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:23:50 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:23:50 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:23:50 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:23:50 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:23:51 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:23:51 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:23:51 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:25:01 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:25:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:25:01 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:25:01 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:25:02 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:25:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:25:02 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:25:03 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:26:40 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:26:40 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:26:40 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:26:40 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:26:40 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:26:41 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:26:41 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:26:41 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:33:03 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:33:04 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:33:05 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:34:07 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:34:07 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:34:07 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:34:07 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:34:08 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:34:08 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:34:08 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:34:08 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:36:41 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:36:41 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:36:41 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:36:41 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:36:41 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:36:42 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:36:42 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:36:42 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:38:27 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:38:27 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:38:27 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:38:27 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:38:28 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:38:28 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:38:28 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:38:29 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:39:29 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:39:29 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:39:29 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:39:29 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:39:30 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:39:30 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:39:30 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:39:30 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:47:39 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:47:39 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:47:39 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 12:47:39 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 12:47:40 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 12:47:40 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 12:47:40 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
+08/18/2017 12:47:40 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 12:57:54 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 12:57:55 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 12:57:55 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:00:51 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:00:52 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:00:52 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:03:52 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:03:53 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:03:53 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:03:53 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_order\!acceptOrder and  locatorType: css
+08/18/2017 01:06:06 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:06:07 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:06:07 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:06:33 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:06:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:06:33 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:07:25 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:07:26 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:07:26 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:07:26 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 01:08:27 AM - SeleniumDriver - INFO: Element found with locator: Add order and  locatorType: link
+08/18/2017 01:08:27 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and  locatorType: id
+08/18/2017 01:08:27 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_order!acceptOrder and locatorType:ID
+08/18/2017 01:08:27 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_supplier > option:nth-child(3) and  locatorType: css
+08/18/2017 01:08:27 AM - SeleniumDriver - INFO: Element found with locator: #orderDetails\!addItem_product > option:nth-child(2) and  locatorType: css
+08/18/2017 01:08:28 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_amount and  locatorType: id
+08/18/2017 01:08:28 AM - SeleniumDriver - INFO: Element found with locator: orderDetails!addItem_0 and  locatorType: id
