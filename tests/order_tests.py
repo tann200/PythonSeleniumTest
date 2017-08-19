@@ -8,33 +8,37 @@ import pytest
 class OrderTests(unittest.TestCase):
 
 
-#This has to be converted to a setup method to ensure user is logged in before doing order related stuff
-    def test_login_before_order(self):
+#Using login and browser set up in class setup
+    def setUp(cls):
         FFprofile = webdriver.FirefoxProfile()
         FFprofile.set_preference('network.security.ports.banned.override', '6666')
         FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
         driver = webdriver.Firefox(FFprofile)
-        lp = LoginPage(driver)
-        self.lp=LoginPage(self)
         username = "mari"
         password = "mari"
-
+        lp=LoginPage(driver)
         lp.login(username, password)
-        # Following code should be in another method called
-    #def test_createorder(self):
-        op = OrderPage(driver)
+        print("I am setup")
+    #def test_createorder(cls):
+        op=OrderPage(driver)
+        op.getOrders
         op.addOrder()
         result=op.verifyAddOrderClicked()
         assert result == True
         op.addItemOrder(10)
         op.addItemOrder(1)
+        op.acceptOrder()
 
-#Start creating an order and add an item to order
-     #def test_add_item_order(self):
+        ordersExist=op.verifyOrdersExist()
+        assert ordersExist==True
+
+    def test_order2(cls):
+        print("test2")
 
 
-#Accept order
-        #op.acceptOrder()
+    def tearDown(cls):
+        print ("I am teardown")
+        webdriver.Firefox.quit()
 
 #Cancel order
 

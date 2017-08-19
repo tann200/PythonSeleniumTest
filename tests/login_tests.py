@@ -1,111 +1,63 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from pages.login_page import LoginPage
+from pages.order_page import OrderPage
 import unittest
 import pytest
 
-class LoginTests(unittest.TestCase):
 
-
-#Test for valid login scenario
-
-    def test_validLogin(self):
+class TestTests(unittest.TestCase):
+    # Define a fixture for setup
+    def setUp(cls):
         FFprofile = webdriver.FirefoxProfile()
         FFprofile.set_preference('network.security.ports.banned.override', '6666')
-        FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-        driver = webdriver.Firefox(FFprofile)
-        lp = LoginPage(driver)
-        username = "mari"
-        password = "mari"
-        print("set usernames")
-        lp = LoginPage(self.driver)
-        lp.login(username, password)
+        # FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
+        cls.driver = webdriver.Firefox(FFprofile)
+        cls.driver.implicitly_wait(5)
+        cls.driver.maximize_window()
+        print("I am a class level setup")
 
-        result=lp.verifyLoginSuccessful()
-        assert result==True
-        yield
+    def test_1_validLogin(self):
+        self.lp = LoginPage(self.driver)
+        self.lp.login("mari", "mari")
+        print("I am test")
+        result = self.lp.verifyLoginSuccessful()
+        print(result)
+        assert result == True
 
-
-
-#Test for invalid login scenario with wrong password and correct user.
-    @pytest.mark.run(order=1)
-    def test_invalidLoginPassword(self):
-        FFprofile = webdriver.FirefoxProfile()
-        FFprofile.set_preference('network.security.ports.banned.override', '6666')
-        FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-        driver = webdriver.Firefox(FFprofile)
-        username = "mari"
-        password = "maris"
-        lp = LoginPage(driver)
-        requestStatus=lp.check403PageStatus(username,password)
+    # Test for invalid login scenario with wrong username and correct password.
+    def test_invalidLoginUsername(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check403PageStatus("mari123", "mari")
         assert requestStatus == True
-        driver.close()
 
+    def test_invalidLoginUsernameAndPassword(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check403PageStatus("maris", "maris")
+        assert requestStatus == True
 
-"""
+    def test_emptyLoginUsernameAndCorrectPassword(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check403PageStatus("", "maris")
+        assert requestStatus == True
 
-#Test for invalid login scenario with wrong username and correct password.
-def test_invalidLoginUsername(self):
-    FFprofile = webdriver.FirefoxProfile()
-    FFprofile.set_preference('network.security.ports.banned.override', '6666')
-    FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-    driver = webdriver.Firefox(FFprofile)
-    username = "mari1"
-    password = "mari"
-    lp = LoginPage(driver)
-    requestStatus=lp.check403PageStatus(username,password)
-    assert requestStatus == True
-    driver.close()
-#Test for invalid login scenario with incorrect user and incorrect password.
-def test_invalidLoginUsernameAndPassword(self):
-    FFprofile = webdriver.FirefoxProfile()
-    FFprofile.set_preference('network.security.ports.banned.override', '6666')
-    FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-    driver = webdriver.Firefox(FFprofile)
-    username = "mari1"
-    password = "mari1"
-    lp = LoginPage(driver)
-    requestStatus=lp.check403PageStatus(username,password)
-    assert requestStatus == True
-    driver.close()
-#Test for invalid login scenario with empty username and  valid password.
-def test_emptyLoginUsername(self):
-    FFprofile = webdriver.FirefoxProfile()
-    FFprofile.set_preference('network.security.ports.banned.override', '6666')
-    FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-    driver = webdriver.Firefox(FFprofile)
-    username = ""
-    password = "mari"
-    lp = LoginPage(driver)
-    requestStatus=lp.check403PageStatus(username,password)
-    assert requestStatus == True
-    driver.close()
-#Test for invalid login scenario with valid username and empty login password.
-def test_emptyLoginPassword(self):
-    FFprofile = webdriver.FirefoxProfile()
-    FFprofile.set_preference('network.security.ports.banned.override', '6666')
-    FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-    driver = webdriver.Firefox(FFprofile)
-    username = "mari"
-    password = ""
-    lp = LoginPage(driver)
-    requestStatus=lp.check403PageStatus(username,password)
-    assert requestStatus == True
-    driver.close()
+    def test_correctLoginUsernameAndEmptyPassword(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check403PageStatus("mari", "")
+        assert requestStatus == True
 
-def test_EmptyLoginUsernameAndPassword(self):
-    FFprofile = webdriver.FirefoxProfile()
-    FFprofile.set_preference('network.security.ports.banned.override', '6666')
-    FFprofile.set_preference("browser.privatebrowsing.autostart", 'True')
-    driver = webdriver.Firefox(FFprofile)
-    lp = LoginPage(driver)
-    requestStatus=lp.check401PageStatus()
-    assert requestStatus == True
-    driver.close()
-"""
+    def test_EmptyLoginUsernameAndPassword(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check401PageStatus()
+        assert requestStatus == True
 
+    def test_invalidLoginPassword(self):
+        self.lp = LoginPage(self.driver)
+        requestStatus = self.lp.check403PageStatus("mari", "mari1")
+        assert requestStatus == True
 
-
+    def tearDown(cls):
+        cls.driver.close()
+        print("I am teardown")
 
 
 
